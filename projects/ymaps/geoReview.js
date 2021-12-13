@@ -24,6 +24,7 @@ export default class GeoReview {
       method: 'post',
       body: JSON.stringify(body),
     });
+    
     return await res.json();
   }
 

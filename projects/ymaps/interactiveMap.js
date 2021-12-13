@@ -27,7 +27,7 @@ export default class InteractiveMap {
     this.clusterer = new ymaps.Clusterer({
       groupByCoordinates: true,
       clusterDisableClickZoom: true,
-      clusterOpenBalloonOnclick: false,
+      clusterOpenBalloonOnClick: false,
     });
     this.clusterer.events.add('click', (e) => {
       const coords = e.get('target').geometry.getCoordinates();

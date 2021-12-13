@@ -1,0 +1,22 @@
+{
+  "proxy": {
+    "/ymaps/list": {
+      "target": "http://localhost:8181",
+      "pathRewrite": {
+        "^/ymaps": ""
+      }
+    },
+    "/ymaps/add": {
+      "target": "http://localhost:8181",
+      "pathRewrite": {
+        "^/ymaps": ""
+      }
+    },
+    "/ymaps/coords": {
+      "target": "http://localhost:8181",
+      "pathRewrite": {
+        "^/ymaps": ""
+      }
+    }
+  }
+}
